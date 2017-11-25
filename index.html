@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  	<head>
+	    <meta charset="UTF-8">
+		<title>TP2 - Chansons Préférées</title>
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="containerVolum">
+			<div class="liniVolum"></div>
+				<input type="range" id="volum" value="90" min="0" max="100">
+			<br>
+			<span>volume</span>
+		</div>
+		<div id="container">
+			<div id="button_container">
+				<button id="Tous">Jouer tous</button>
+				<button id="Aleatoire">Lecture aléatoire</button>
+				<button id="Reset">Stop (Reset)</button>
+			</div>
+			<div id="audio_container">
+
+				<div class="audio0 audio1">
+					<audio id="Player1" class="player">
+						<source src="audios/Un peu de soleil.mp3">
+					</audio>
+					<img src="images/bg.jpg" alt="">
+					<div>
+						<img id="acul1" class="acul" src="images/acul.png" alt="">
+					</div>
+					<div id="rotateDisc1">
+						<img class="plastinca" src="images/plastinca.png" alt="">
+						<img class="bg_plastinca" src="images/circle.png" alt="">
+					</div>
+				</div>
+
+				<div class="audio0 audio2">
+					<audio id="Player2" class="player">
+						<source src="audios/Juste un instant.mp3">
+					</audio>
+					<img src="images/bg.jpg" alt="">
+					<div>
+						<img id="acul2" class="acul" src="images/acul.png" alt="">
+					</div>
+					<div id="rotateDisc2">
+						<img class="plastinca" src="images/plastinca.png" alt="">
+						<img class="bg_plastinca" src="images/circle.png" alt="">
+					</div>
+				</div>
+
+				<div class="audio0 audio3">
+					<audio id="Player3" class="player">
+						<source src="audios/Ton desir.mp3">
+					</audio>
+					<img src="images/bg.jpg" alt="">
+					<div>
+						<img id="acul3" class="acul" src="images/acul.png" alt="">
+					</div>
+					<div id="rotateDisc3">
+						<img class="plastinca" src="images/plastinca.png" alt="">
+						<img class="bg_plastinca" src="images/circle.png" alt="">
+					</div>
+				</div>
+
+				<div class="audio0 audio4">
+					<audio id="Player4" class="player">
+						<source src="audios/Je Laime a mourir.mp3">
+					</audio>
+					<img src="images/bg.jpg" alt="">
+					<div>
+						<img id="acul4" class="acul" src="images/acul.png" alt="">
+					</div>
+					<div id="rotateDisc4">
+						<img class="plastinca" src="images/plastinca.png" alt="">
+						<img class="bg_plastinca" src="images/circle.png" alt="">
+					</div>
+				</div>
+				
+			</div>
+
+		</div>
+	
+		<footer>
+				
+			<span>&copy;  TP2 - Chansons Préférées : Birnaz Denis - étudiant<br>Toutes les informations sont utilisées uniquement pour les études 
+			</span>
+		</footer>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
